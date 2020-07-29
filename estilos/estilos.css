@@ -1,0 +1,271 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-stretch: expanded;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid nav ul li {
+    color: lime;
+}
+
+#grid nav ul li span#empresa {
+    color: grey;
+}
+
+#grid nav ul li span.dos {
+    color: darkorange;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px 50px 2400px 150px;
+}
+
+* a {
+    color: #66CCFF;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul:first-child {
+    padding: 0px;
+}
+
+nav ul.derecha li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#grid nav ul li span.f {
+    color: gray;
+    font-size: 23rem;
+}
+
+div#grid > header {
+    sborder: 1.5px solid #E0E0E0;
+    spadding: 30px;
+    text-align: center;
+}
+
+ul#menu {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul#menu li {
+    display: inline;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+
+ul#menu li a {
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(151, 68, 120);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul#menu li.participa a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(151, 68, 120);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+
+}
+
+div#hero {
+    background-color: #f0b1eb;
+    width: 762px;
+    sheight: 200px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+#hero p,
+h4 {
+    padding: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+
+}
+
+#hero h4 {
+    font-weight: bold;
+
+}
+
+#hero h4#fines,
+h4#fines p,
+h4#participacion,
+h4#participacion p,
+h4#junta,
+h4#junta p {
+    display: inline;
+}
+
+h4#fines p {
+    margin-left: 210px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    ;
+}
+
+h4#fines a,
+h4#participacion a,
+h4#junta a {
+    background-color: darkviolet;
+    color: white;
+
+}
+
+h4#participacion p {
+    margin-left: 350px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    ;
+}
+
+h4#junta p {
+    margin-left: 466px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    ;
+}
+
+div#hero span {
+    color: darkviolet
+}
+
+#hero .junta p span {
+    color: black;
+    margin-left: 90px;
+
+}
+
+div#ventajas {
+    width: 600px;
+    height: 250px;
+    margin: 0px auto;
+    margin-top: 20px;
+    smargin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+div.contenido {
+    sgrid-row: 6/7;
+    width: 300px;
+    height: 150px;
+    spadding-left: 10px;
+    spadding-bottom: 25px;
+}
+
+div.emprende {}
+
+div#statistics {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #0099FF;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 90px;
+}
+
+div#statistics p {
+
+    margin-top: -25px;
+}
+
+#grid > h1 {
+    margin-left: 10px;
+}
+
+#galeria {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-column-gap: 35px;
+    grid-row-gap: 15px;
+}
+
+#galeria h1 {
+    grid-column: 1/5;
+}
+
+#galeria img {
+    width: 305px;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #E0E0E0;
+}
+
+#footer {
+    background-color: rgb(151, 68, 120);
+    line-height: 125px;
+}
+
+#footer ul {
+    padding-left: 100px;
+}
+
+#footer ul li {
+    display: inline;
+    padding: 0px;
+
+}
+
+#footer ul li a {
+
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+#footer ul li.copyright a {
+    display: inline-block;
+    width: 400px;
+    color: white;
+}

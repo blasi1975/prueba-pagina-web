@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AELAN - Asociación de Empresarias de Lanzarote</title>
+    <link rel="stylesheet" href="./estilos/ofertasCurriculum.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="grid">
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="quienesSomos.html">QUIENES SOMOS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="notasDePrensa.html">N. DE PRENSA</a></li>
+                <li><a href="formacion.html">FORMACIÓN</a></li>
+                <li><a href="mujerEmprendedora.html">EMPRENDEDORA</a></li>
+                <li><a href="financiacion.html">FINANCIACIÓN</a></li>
+                <li><a href="bolsaDeTrabajo.html">TRABAJO</a></li>
+                <li><a href="asociarse.html">ASOCIARSE</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+
+            </ul>
+
+        </nav>
+        <header>
+            <img src="./imagenes/logotipo.png" alt="">
+        </header>
+
+        <main>
+            <div class="nombre">
+                <h1>BOLSA DE TRABAJO</h1>
+            </div>
+            <div id="intro">
+                <p>Si busca trabajo o desea mejorar su situación laboral puede enviarnos su curriculum vitae.
+                </p>
+                <p>Selecciona el fichero de tu currículum y pulsa en enviar</p>
+                <label for="fichero">Examinar</label><input type="file" id="fichero" onchange='cambiar()' accept=".pdf, .doc, .docx, .odt, .rtf">
+                <div id="info"></div>
+                <input type="submit" value="Enviar">
+                <br>
+                <br>
+                <p>Si no dispone de un curriculum elaborado le facilitamos un formulario para que lo cumplimente y nos lo envie.</p>
+                <a href="https://www3.gobiernodecanarias.org/empleo/portal/web/sce/contenido_web_estatico/contenidos_web_sce_empleo_crea_tu_cv" target="_blank">Currículum guiado</a>
+
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <p>
+                    <a href="">Aviso Legal</a>
+                </p>
+                <p>
+                    <a href="">Política de Privacidad</a>
+                </p>
+                <p><a href="http://www.blasi.epizy.com/webs" class="copyright" target="_blank">
+                        Web diseñada por BG WebDesign. Copyright @2019
+                    </a>
+                </p>
+            </nav>
+        </footer>
+    </div>
+    <script>
+        function cambiar() {
+            var pdrs = document.getElementById('fichero').files[0].name;
+            document.getElementById('info').innerHTML = pdrs;
+        }
+
+    </script>
+</body>
+
+</html>

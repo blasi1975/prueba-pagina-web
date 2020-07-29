@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //let menu = document.createElement = ("ul")
+        //menu.innerHTML = "<li>Item 1</li>" + "<li>Item 2</li>" + "<li>Item 3</li>"
+        //document.body.appendChild(menu)
+        //document.body.appendChild(menu)
+
+        var menu = document.createElement("ul")
+
+        document.body.appendChild(menu)
+        menu.innerHTML = "<li>Item 1</li>" + "<li>Item 2</li>" + "<li>Item 3</li>"
+        for (i = 0; i < menu.children.length; i++) {
+            menu.children[i].style.color = "tomato"
+        }
+        menu.parentElement.style.backgroundColor = "antiquewhite"
+    </script>
+</body></html>

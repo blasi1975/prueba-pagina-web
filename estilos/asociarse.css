@@ -1,0 +1,295 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F4F4F4;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-stretch: expanded;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 220px 71px 1020px 1730px;
+    250px;
+}
+
+#grid > h1 {
+    margin-left: 10px;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul:first-child {
+    padding: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#menu ul li a {
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    background-color: #d8d8d8;
+    text-align: center;
+    color: #bf89ac;
+
+}
+
+#menu ul li:nth-child(1) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(3) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(4) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(5) a {
+    width: 100px;
+}
+
+#menu ul li:nth-child(6) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(9) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(10) a {
+    width: 90px;
+}
+
+div#grid > header {
+    text-align: center;
+}
+
+#grid div.nombre {
+    width: 762px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#grid div.nombre h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: #b30086;
+}
+
+#grid div.servicios {
+    width: 762px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#grid div.servicios p {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    color: #828290;
+}
+
+#grid .servicios ul {
+    margin: 0;
+
+}
+
+#grid div.servicios a {
+    display: inline-block;
+    position: fixed;
+    left: 1040px;
+    top: 447px;
+    width: 90px;
+    height: 20px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    background-color: #8E7388;
+    color: #B1A9A2;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+
+#grid .servicios ul li p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+
+#grid div.servicios h4 {
+    background-color: #8E7388;
+    color: #B1AFB0;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    border-radius: 30px;
+    grid-column: 1/3;
+}
+
+#grid form {
+    width: 762px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, 40px);
+    background-color: beige;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: -10px -10px 10px grey;
+}
+
+#grid form h4 {
+    font-weight: bold;
+    background-color: #8E7388;
+    color: #B1AFB0;
+    height: 30px;
+    line-height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#grid form h4:nth-of-type(2) {
+    grid-row: 7/9;
+}
+
+#grid form h4:nth-of-type(3) {
+    grid-row: 30/32;
+}
+
+#grid form h4:nth-of-type(4) {
+    grid-row: 35/37;
+}
+
+#grid form textarea {
+    grid-column: 2/3;
+    grid-row: 13/16;
+}
+
+#grid form textarea:nth-of-type(2) {
+    grid-column: 1/3;
+    grid-row: 32/35;
+}
+
+#grid form .privacidad {
+    grid-column: 1/3;
+    grid-row: 37/41;
+    padding: 0 10px 0 10px;
+    background-color: white;
+    text-align: justify;
+    border-radius: 20px;
+
+}
+
+#grid form input.enviar {
+    grid-column: 1/3;
+    width: 150px;
+    height: 37px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    background-color: #8E7388;
+    color: #B1AFB0;
+}
+
+#grid form p {
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+
+#grid #formulario p {
+    margin-left: 10px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+
+}
+
+#grid form input {
+    border: 1px solid black;
+    box-shadow: -2px -2px 5px grey;
+    padding: 10px;
+    height: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 3px;
+
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #974478;
+    line-height: 125px;
+}
+
+footer ul {
+    width: 762px;
+    height: 150px;
+    margin: 0 auto;
+    outline: 1px solid black;
+    padding: 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+
+}
+
+footer nav a {
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+footer nav a.copyright {
+    width: 400px;
+    color: white;
+}

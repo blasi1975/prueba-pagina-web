@@ -1,0 +1,212 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-stretch: expanded;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 220px 71px 130px 310px 115px 90px 250px;
+
+}
+
+* a {
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul:first-child {
+    padding: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#menu ul li a {
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    background-color: #d8d8d8;
+    text-align: center;
+    color: #bf89ac;
+
+}
+
+#menu ul li:nth-child(1) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(3) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(4) a {
+    width: 110px;
+}
+
+#menu ul li:nth-child(5) a {
+    width: 100px;
+}
+
+#menu ul li:nth-child(8) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(9) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(10) a {
+    width: 90px;
+}
+
+div#grid > header {
+    text-align: center;
+}
+
+#grid div.nombre {
+    width: 762px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#grid div.nombre h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(151, 68, 120)
+}
+
+#grid div.propia,
+#grid .ajena,
+#grid .otras,
+#grid .subvenciones {
+    width: 762px;
+    height: 30px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 361px);
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+#grid .propia p a,
+#grid .ajena p a,
+#grid .otras p a,
+#grid .subvenciones p a {
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(177, 175, 176);
+}
+
+#grid .propia p,
+#grid .ajena p,
+#grid .otras p,
+#grid .subvenciones p {
+
+    margin: 0px;
+    background-color: #8e7388;
+    text-align: center;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+#grid .propia p:nth-of-type(1),
+#grid .ajena p:nth-of-type(1),
+#grid .otras p:nth-of-type(1),
+#grid .subvenciones p:nth-of-type(1) {
+    width: auto;
+    grid-column: 1/3;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#grid .propia p:nth-child(2),
+#grid .propia p:nth-child(3),
+#grid .ajena p:nth-child(2),
+#grid .ajena p:nth-child(3),
+#grid .ajena p:nth-child(2),
+#grid .ajena p:nth-child(3) {
+    border-bottom: 1px solid rgb(177, 175, 176);
+    color: #B1A9A2;
+}
+
+#grid div.ajena,
+#grid div.otras,
+#grid div.subvenciones {
+    margin-top: 20px;
+
+}
+
+#grid div.otras {
+    margin-top: 20px;
+}
+
+
+footer {
+    margin-top: 100px;
+    background-color: #974478;
+    line-height: 125px;
+}
+
+footer ul {
+    width: 762px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer nav p {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    width: inherit;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+
+
+}
+
+footer nav a {
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+footer nav a.copyright {
+    width: 400px;
+}

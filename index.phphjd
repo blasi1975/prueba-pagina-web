@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AELAN - Asociación de Empresarias de Lanzarote</title>
+    <link rel="stylesheet" href="./estilos/asociarse.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="grid">
+        <?php include 'navegacion.html'; ?>
+
+        <header>
+            <img src="/imagenes/logotipo.png" alt="">
+        </header>
+        <div class="nombre">
+            <h1>ASOCIARSE es el php</h1>
+        </div>
+        <div class="servicios">
+            <p>Pertenecer a nuestra asociación ofrece las siguientes ventajas: <a href="#asociarse" class="asociarse">¿COMO ASOCIARSE?</a> </p>
+
+            <p><a href="#menu">SUBIR</a></p>
+
+            <ul>
+                <li>
+                    <p>Representación, defensa y fomento de los intereses económicos, profesionales y sociales de las asociadas. La Asociación ,otorga servicios de asesoramiento y de gestión de proyectos que tienen como finalidad un beneficio común de los miembros de la misma, y la posibilidad de impulsar iniciativas empresariales y de cooperación con los entes locales y con otras asociaciones u organismos.</p>
+                </li> <br>
+                <li>
+                    <p>Participación en distintos foros de discusión y debate con otras organizaciones, instituciones y agentes sociales representativos del sector sobre temas que afectan a los fines de la Asociación.</p>
+                </li> <br>
+                <li>
+                    <p>Asesoramiento , mediante la adhesión a los convenios firmados, en materia jurídica ,laboral, prevención de riesgos laborales y nuevas tecnologías.</p>
+                </li><br>
+                <li>
+                    <p>Capacidad de apoyo y Gestión ante la Administración Pública.</p>
+                </li><br>
+
+                <li>
+                    <p> Información sobre temas que afectan a las empresas asociadas y en general a todas las entidades que desarrollan su actividad en el sector Servicios Empresariales.</p>
+                </li><br>
+                <li>
+                    <p>Recurrir a una Bolsa de Trabajo en el momento en que necesite cubrir un puesto de trabajo en su empresa.</p>
+
+
+                </li><br>
+                <li>
+                    <p>Recibir información puntual sobre licitaciones, concursos del B.O.C , B.O.E y B.O.P que interesen al sector y sobre Ayudas y Subvenciones.</p>
+                </li>
+                <br>
+                <li>
+                    <p>Cooperación y Colaboración empresarial, mediante el establecimiento de relaciones con otras asociadas a través de actividades.</p>
+                </li>
+                <br>
+                <li>
+                    <p>Cursos de formación y reciclaje</p>
+                </li>
+                <br>
+                <li>
+                    <p>Orientación sobre las necesidades formativas de las empresas asociadas.</p>
+                </li>
+                <br>
+                <li>
+                    <p>Protección contra la Competencia desleal.</p>
+                </li>
+            </ul>
+            <p id="asociarse"> Si deseas formar parte de nuestra asociación y poder así disfrutar de todos nuestros servicios, por favor rellena el siguiente formulario</p>
+            <p>Los campos marcados (*) son obligatorios</p>
+            <br>
+            <h4>DATOS PERSONALES</h4>
+            <form action="" name="registro" class="registro">
+
+                <p>Nombre:</p><input type="text" name="nombre" placeholder="Obligatorio" required>
+                <p>Apellidos:</p><input type="text" name="apellidos" placeholder="Obligatorio" required>
+                <p>DNI/NIF: </p><input type="text" placeholder="Obligatorio" required>
+                <p>Fecha de nacimiento:</p> <input type="date">
+                <h4>DATOS DE EMPRESA</h4>
+                <p>Nombre:</p><input type="text" name="nombre" placeholder="Obligatorio" required>
+                <p>C.I.F:</p><input type="text" name="cif" placeholder="Obligatorio" required>
+                <p>Nº epígrafe</p><input type="text" name="epigrafe">
+                <p>En constitución</p><input type="text" name="constitucion">
+                <div class="direccion">
+                    <p>Dirección:</p>
+                    <textarea name="direccion" id="" cols="30" rows="10" maxlength="80" placeholder="Obligatorio" required></textarea>
+                </div>
+                <p>Población:</p><input type="text" name="poblacion" placeholder="Obligatorio" required>
+                <p>C.P.:</p><input type="number" name="cp" min="35500" max="35580" placeholder="Obligatorio" required>
+                <br>
+                <p>Teléfono:</p><input type="tel" name="telefono" pattern="[6-9]{3}-[0-9]{6}" placeholder="Obligatorio" required>
+                <p>Fax:</p><input type="tel" name="fax" pattern="[6-9]{3}-[0-9]{6}">
+                <p>Móvil:</p><input type="tel" name="movil" pattern="[6-9]{3}-[0-9]{6}">
+                <p>Email:</p><input type="email" name="correo" placeholder="Obligatorio" required>
+                <p>Página web:</p><input type="url" name="web" required>
+                <p>Persona de Contacto:</p><input type="text" name="contacto">
+                <p>Cargo:</p><input type="text" name="cargo">
+                <p>Sector:</p><input type="text" name="sector">
+                <p>Actividad:</p><input type="text" placeholder="Obligatorio" name="actividad" required>
+                <p>Año de creación:</p><input type="number" placeholder="Obligatorio" required>
+                <p>Nº de trabajadores</p><input type="number" placeholder="obligatorio" name="creacion">
+                <p>Personas integrantes</p><input type="text" name="integrantes">
+                <h4>OBSERVACIONES ADICIONALES</h4>
+                <textarea name="" id="adicionales" cols="80" rows="10" placeholder="Escriba aqui"></textarea>
+                <h4>POLÍTICA DE PRIVACIDAD</h4>
+                <p>Les informamos que los datos personales facilitados por usted, serán incorporados a un archivo privado de AELAN, con fines promocionales e informativos. La cumplimentación del presente formulario implica la autorización a AELAN para usar estos datos personales. Podrá ejercer sus derechos de acceso, rectificación y cancelación, en su caso, a través de esta web.</p>
+
+            </form>
+        </div>
+        <div id="footer">
+            <ul>
+                <li><a href="">Aviso Legal</a></li>
+                <li><a href="">Política de Privacidad</a></li>
+                <li class="copyright"><a href="">Web diseñada por BG WebDesign. Copyright @2019 </a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

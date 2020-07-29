@@ -1,0 +1,194 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F4F4F4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-stretch: expanded;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 220px 71px 785px 250px;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul:first-child {
+    padding: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#menu ul li a {
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    background-color: #d8d8d8;
+    text-align: center;
+    color: #bf89ac;
+
+}
+
+#menu ul li:nth-child(1) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(3) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(4) a {
+    width: 110px;
+}
+
+#menu ul li:nth-child(5) a {
+    width: 100px;
+}
+
+#menu ul li:nth-child(8) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(9) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(10) a {
+    width: 90px;
+}
+
+div#grid > header {
+    text-align: center;
+}
+
+#grid h1 {
+    width: 674px;
+    margin: 0px auto;
+    font-size: 4rem;
+    color: #b30086;
+    text-align: center;
+}
+
+#grid .texto {
+    width: 762px;
+    margin: 0px auto;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+    list-style-type: circle;
+}
+
+#grid .texto p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #828290;
+}
+
+s#grid .texto p:nth-of-type(1) {
+    margin: 0;
+}
+
+
+#grid .texto ul:nth-child(2) li:nth-child(3) {
+
+    list-style-type: none;
+}
+
+
+#grid .texto ul:nth-child(2) li:nth-child(3) p {
+    display: inline;
+    margin-right: 70px;
+}
+
+#grid .texto ul:nth-child(2) li:nth-child(3) {
+    margin-bottom: 20px;
+
+}
+
+#grid .texto ul:nth-child(2) li:nth-child(4) p,
+#grid .texto ul:nth-child(2) li:nth-child(4) {
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#grid .texto ul:nth-child(2) li:nth-child(3) p span {
+    color: rgb(151, 68, 120);
+}
+
+#grid .texto ul li a {
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #9E4477;
+    color: #B1A9A2;
+    font-size: 1.3rem;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #974478;
+    line-height: 125px;
+}
+
+footer ul {
+    width: 762px;
+    height: 150px;
+    margin: 0 auto;
+    outline: 1px solid black;
+    padding: 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+
+}
+
+footer nav a {
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+footer nav a.copyright {
+    width: 400px;
+    color: white;
+}

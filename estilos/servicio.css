@@ -1,0 +1,219 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-stretch: expanded;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 220px 71px 1900px 250px;
+}
+
+#grid > h1 {
+    margin-left: 10px;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul:first-child {
+    padding: 0px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#menu ul li a {
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    background-color: #d8d8d8;
+    text-align: center;
+    color: #bf89ac;
+
+}
+
+#menu ul li:nth-child(1) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(3) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(4) a {
+    width: 110px;
+}
+
+#menu ul li:nth-child(5) a {
+    width: 100px;
+}
+
+#menu ul li:nth-child(8) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(9) a {
+    width: 90px;
+}
+
+#menu ul li:nth-child(10) a {
+    width: 90px;
+}
+
+div#grid > header {
+    text-align: center;
+}
+
+#grid div.nombre {
+    width: 762px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#grid div.nombre h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: #b30086;
+}
+
+#grid div.servicios {
+    width: 762px;
+    max-width: 762px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#grid div.servicios p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #828290;
+    text-align: justify;
+}
+
+#grid div.servicios a {
+    display: inline-block;
+    left: 1050px;
+    position: fixed;
+    width: 90px;
+    height: 35px;
+    background-color: #b30086;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    border-radius: 35px;
+
+}
+
+#grid div.servicios li p {
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    color: #828290;
+}
+
+#grid div.servicios ul li span {
+    font-weight: bold;
+    color: #828290;
+    font-size: 1.3rem;
+}
+
+h4#fines p {
+    margin-left: 210px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    ;
+}
+
+h4#participacion p {
+    margin-left: 350px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    ;
+}
+
+h4#junta p {
+    margin-left: 466px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    ;
+}
+
+div#ventajas {
+    width: 600px;
+    height: 250px;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+div.contenido {
+    width: 300px;
+    height: 150px;
+}
+
+
+footer {
+    margin-top: 100px;
+    background-color: #974478;
+    line-height: 125px;
+}
+
+footer ul {
+    width: 762px;
+    height: 150px;
+    margin: 0 auto;
+    outline: 1px solid black;
+    padding: 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+
+}
+
+footer nav a {
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+footer nav a.copyright {
+    width: 400px;
+    color: white;
+}

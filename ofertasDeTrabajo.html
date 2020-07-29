@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AELAN - Asociación de Empresarias de Lanzarote</title>
+    <link rel="stylesheet" href="./estilos/ofertasDeTrabajo.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="grid">
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="quienesSomos.html">QUIENES SOMOS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="notasDePrensa.html">N. DE PRENSA</a></li>
+                <li><a href="formacion.html">FORMACIÓN</a></li>
+                <li><a href="mujerEmprendedora.html">EMPRENDEDORA</a></li>
+                <li><a href="financiacion.html">FINANCIACIÓN</a></li>
+                <li><a href="bolsaDeTrabajo.html">TRABAJO</a></li>
+                <li><a href="asociarse.html">ASOCIARSE</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+
+        </nav>
+        <header>
+            <img src="./imagenes/logotipo.png" alt="">
+        </header>
+        <div class="nombre">
+            <h1>OFERTA DE TRABAJOS</h1>
+        </div>
+        <div class="intro">
+            <p>Si esta interesado en insertar una oferta de empleo en nuestra bolsa de trabajo rellene los datos que irán apareciendo a continuación. Una vez validados los mismos, su oferta aparecerá en nuestra web a disposición de los demandantes. Los únicos datos que aparecerán en la web son aquellos directamente relacionados con la oferta de trabajo y no aparecerá en ningún caso dato alguno sobre su empresa ni serán dados a conocer. AELAN se pondrá en contacto con usted para hacerle llegar los curriculums de los demandantes que cumplan con los requisitos.</p>
+        </div>
+
+        <form action="" method="get" id="formulario">
+            <h4>DATOS DE LA EMPRESA</h4>
+            <p>Empresa:</p>
+            <br>
+            <input type="text" name="nombre" placeholder="Obligatorio" required class="nombre">
+            <p>Actividad de la empresa</p>
+            <p>Empresa asociada</p>
+            <input type="text" name="actividad" placeholder="Obligatorio" required>
+            <p><input type="radio" name="asociada" value="SI">SI <input type="radio" name="asociada" value="NO">NO</p>
+            <p>C.I.F.:</p>
+            <p>Número de la seguridad social:</p>
+            <input type="text" placeholder="Obligatorio" required>
+            <input type="text" name="seguridad">
+            <p>Domicilio:</p>
+            <p>Código postal:</p>
+            <input type="text" placeholder="Obligatorio" required>
+            <input type="number" name="cp" min="35500" maxlength="35599">
+            <p>Teléfono:</p>
+            <p>Fax:</p>
+            <input type="tel" placeholder="Obligatorio (sin espacios,guiones o puntos)" pattern="[6-9]{3}-[0-9]{6}">
+            <input type="tel" placeholder="Sin espacios, guiones ni puntos">
+            <p>Email:</p>
+            <br>
+            <input type="email" placeholder="Obligatorio">
+            <p>Persona de contacto</p>
+            <input type="text">
+            <p>Cargo:</p>
+            <p>Teléfono:</p>
+            <input type="text">
+            <input type="tel" placeholder="Sin espacios, guiones ni puntos" pattern="[6-9]{3}-[6-9]{6}">
+            <h4>PUESTO DE TRABAJO QUE OFERTA</h4>
+            <p>Puesto de trabajo:</p>
+            <br>
+            <input type="text" placeholder="Obligatorio" required>
+            <p>Trabajadores solicitados:</p>
+            <p>Lugar de trabajo y Municipio:</p>
+            <input type="number" placeholder="Escriba o use las flechas">
+
+            <input type="text" placeholder="Obligatorio" required>
+            <p>Jornada Laboral:</p>
+            <p>Tipo de contrato:</p>
+            <input type="number" placeholder="Obligatorio (En números)">
+            <select name="contratos" id="">
+                <option value="">Selecciona de la lista desplegable</option>
+                <option value="indefinido">Indefinido</option>
+                <option value="temporal">Temporal</option>
+                <option value="formacion">Formación y aprendizaje</option>
+                <option value="practicas">Prácticas</option>
+            </select>
+            <p>Duración del contrato:</p>
+            <p>Sueldo:</p>
+            <input type="number" name="duracion" value="1" min="1" max="12" maxlength="2">
+            <input type="text">
+            <p>Horario de trabajo:</p>
+            <br>
+            <input type="text" placeholder="Horario Laboral">
+            <h4>PERFIL SOLICITADO:</h4>
+            <p>Titulación:</p>
+            <br>
+            <input type="text" placeholder="Obligatorio" required>
+            <p>Cursos específicos:</p>
+            <br>
+            <input type="text">
+            <p>Idiomas (especificar nivel de conocimiento):</p>
+            <input type="text">
+            <p>Informática (Programas y nivel):</p>
+            <br>
+            <input type="text" placeholder="">
+            <p>Permiso de conducir: (Obligatorio)</p>
+            <p>Clase:</p>
+            <p><input type="radio" name="carnet" value="SI" required>SI
+                <input type="radio" name="carnet" value="NO" required>NO</p>
+            <input type="text">
+            <p>Disponibilidad para viajar:</p>
+            <br>
+            <input type="text">
+            <p>Función a desempeñar</p>
+            <br>
+            <input type="text" required>
+            <p>Observaciones</p>
+            <br>
+            <textarea name="observaciones" id="observaciones" cols="30" rows="10" maxlength="150" placeholder="Escriba aqui sus observaciones"></textarea>
+            <br>
+            <input type="submit" class="enviar" value="Enviar oferta">
+
+        </form>
+        <footer>
+            <nav>
+                <p>
+                    <a href="">Aviso Legal</a>
+                </p>
+                <p>
+                    <a href="">Política de Privacidad</a>
+                </p>
+                <p><a href="http://www.blasi.epizy.com/webs" class="copyright" target="_blank">
+                        Web diseñada por BG WebDesign. Copyright @2019
+                    </a>
+                </p>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+
+</html>

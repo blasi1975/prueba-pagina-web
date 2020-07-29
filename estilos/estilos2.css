@@ -1,0 +1,79 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    color: lime;
+}
+
+nav ul li span#empresa {
+    color: grey;
+}
+
+nav ul li span.dos {
+    color: darkorange;
+}
+
+a {
+    color: #66CCFF;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul:first-child {
+    padding: 0px;
+}
+
+nav ul.derecha li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li span.f {
+    color: gray;
+    font-size: 23rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.contenido {
+    width: 500px;
+    position: absolute;
+    left: calc(50% - 250px)
+}
+
+.imagen {
+    height: 645px;
+    background-image: url(imagenes/logotipogrande.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+iframe {
+    width: 960px;
+    sheight: 700px;
+    position: absolute;
+    left: calc(50% - 480px);
+    top: 60px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,105 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    color: lime;
+}
+
+nav ul li span#empresa,
+h1 span#empresa {
+    color: grey;
+}
+
+nav ul li span.dos,
+h1 span.dos {
+    color: darkorange;
+}
+
+nav ul li span#empresa,
+nav ul li span.dos,
+li.titulo {
+
+    font-size: 2.5rem;
+    text-overflow:
+}
+
+li.titulo {
+    position: absolute;
+    top: -0.5px;
+    left: 220px;
+}
+
+a {
+    color: #66CCFF;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul:first-child {
+    padding: 0px;
+}
+
+nav ul.derecha li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li span.f {
+    color: gray;
+    font-size: 23rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    background-color: black;
+    color: lime;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.contenido {
+    width: 500px;
+    position: absolute;
+    left: calc(50% - 250px)
+}
+
+.imagen {
+    height: 100%;
+    background-image: url(imagenes/logotipogrande.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.galeria {
+    padding-top: 50px;
+    width: 1300px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-column-gap: 0.01rem;
+    grid-row-gap: 1.5rem;
+    padding-left: 60px;
+}
